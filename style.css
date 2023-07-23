@@ -95,7 +95,7 @@ color: var(--primary-text-color);
     height: 100%;
     top: 0;
     position: absolute;
-    display: flex;
+    display: none;
     
 
 }
