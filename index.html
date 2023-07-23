@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="./projectimg1.jpg" alt=""></div>
+        <div class="searchbar1">
+            <input type="text" placeholder="Search for products,brands and more" class="searchbar" id="products">
+            <div class="search"><img src="./search.png" alt=""></div>
+            
+        </div>
+        <div class="login">
+            <button type="submit" class="login" id="button">Login</button>
+        </div>
+
+    </nav>
+    <div class="popup" >
+        <div class="popupcontent">
+            <div class="box1">
+                <div class="text1">Login</div>
+                <div class="text2">Get access to your Orders, Wishlist and Recommendations</div>
+                <div class="image1"><img src="./popuplogo.jpg" alt=""></div>
+            </div>
+            <div class="box2">
+                <div class="text3">
+                    <label for=" #email   ">Enter email/ Mobile number</label>
+                    <input type="text" id="email">
+                </div>
+           <div class="text7">By continuing, you agree to Flipkart's <a href="" id="Terms">Terms of use</a> and <a href="" id="Terms">Privacy Policy.</a></div>
+               <button type="button" class="Requestotp">Request OTP</button>
+               <div class="account"><a href="">New to Flipkart? Create an account</a></div> 
+            </div>
+
+        </div>
+        <div class="cross" id="cross"><img src="./close (1).png" alt=""></div>
+    </div>
+    <main class="main"></main>
+    <footer class="footer">
+       Policies : Return Policy | Terms of use | Sale of Products | For any query or product pls visit the  
+       Help Center or Contact us
+    </footer>
+    <script>
+        document.getElementById("button").addEventListener("click",()=>{
+            document.querySelector(".popup").style.display="flex";
+        })
+        document.getElementById("cross").addEventListener("click",()=>{
+            document.querySelector(".popup").style.display="none";
+        })
+
+
+    </script>
+</body>
+
+</html>
