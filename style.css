@@ -33,7 +33,7 @@ color: var(--primary-text-color);
     
 }
 .logo img{
-    max-width: fit-content;
+    
     height: 3.5vw;
     margin-left: 17vw;
 }
@@ -88,6 +88,7 @@ color: var(--primary-text-color);
     background-color:#fff ;
     width: 100vw;
     height: 10vw;
+    font-size: 1.2vw;
 }
 .popup{
     background: rgba(0,0,0,0.6);
@@ -96,7 +97,7 @@ color: var(--primary-text-color);
     top: 0;
     position: absolute;
     display: none;
-    
+    font-size: 1.2vw;
 
 }
 .popupcontent{
@@ -145,6 +146,7 @@ color: var(--primary-text-color);
 .Requestotp{
     margin-left: 1.5vw;
     width: 18vw;
+    font-size: 1.2vw;
     height: 3vw;
     margin-top: 2vw;
     cursor: pointer;
@@ -172,4 +174,11 @@ width: 18vw;
     margin-left: 0.5vw;
     width: 1.5vw;
     cursor: pointer;
+}
+@media (max-width:500px){
+   .logo img{
+    margin-right: 1vw;
+    height: 3.5w;
+    margin-bottom: 1.2vw;
+   }
 }
